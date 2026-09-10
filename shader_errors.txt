@@ -1,0 +1,34 @@
+﻿
+> latest.log:164:[10Sep2026 22:45:07.055] [Render thread/WARN] [net.coderbot.iris.gl.shader.GlShader/]: Shader compilat
+ion log for composite2.fsh: 0(90) : error C1033: cast not allowed
+  latest.log:165:
+> latest.log:166:[10Sep2026 22:45:07.055] [Render thread/ERROR] [Oculus/]: Failed to create shader rendering pipeline, 
+disabling shaders!
+  latest.log:167:java.lang.RuntimeException: Shader compilation failed for composite2!
+  latest.log:168:	at net.coderbot.iris.postprocess.CompositeRenderer.createProgram(CompositeRenderer.java:356) ~[oculus
+-mc1.18.2-1.6.4.jar%2357!/:?]
+  latest.log:169:	at net.coderbot.iris.postprocess.CompositeRenderer.<init>(CompositeRenderer.java:123) ~[oculus-mc1.18
+.2-1.6.4.jar%2357!/:?]
+  latest.log:170:	at net.coderbot.iris.pipeline.newshader.NewWorldRenderingPipeline.<init>(NewWorldRenderingPipeline.ja
+va:320) ~[oculus-mc1.18.2-1.6.4.jar%2357!/:?]
+> latest.log:384:[10Sep2026 22:45:39.848] [Render thread/WARN] [net.coderbot.iris.gl.shader.ProgramCreator/]: Program l
+ink log for deferred: Vertex info
+  latest.log:385:-----------
+  latest.log:386:0(32) : warning C7050: "tempOffsets.x" might be used before being initialized
+  latest.log:387:
+  latest.log:388:[10Sep2026 22:45:40.128] [Render thread/WARN] [net.coderbot.iris.pipeline.transform.transformer.Compat
+ibilityTransformer/]: Removed empty external declarations (";").
+> latest.log:495:[10Sep2026 22:45:54.729] [Render thread/WARN] [net.coderbot.iris.gl.shader.GlShader/]: Shader compilat
+ion log for composite2.fsh: 0(90) : error C1033: cast not allowed
+  latest.log:496:
+> latest.log:497:[10Sep2026 22:45:54.729] [Render thread/ERROR] [Oculus/]: Failed to create shader rendering pipeline, 
+disabling shaders!
+  latest.log:498:java.lang.RuntimeException: Shader compilation failed for composite2!
+  latest.log:499:	at net.coderbot.iris.postprocess.CompositeRenderer.createProgram(CompositeRenderer.java:356) ~[oculus
+-mc1.18.2-1.6.4.jar%2357!/:?]
+  latest.log:500:	at net.coderbot.iris.postprocess.CompositeRenderer.<init>(CompositeRenderer.java:123) ~[oculus-mc1.18
+.2-1.6.4.jar%2357!/:?]
+  latest.log:501:	at net.coderbot.iris.pipeline.newshader.NewWorldRenderingPipeline.<init>(NewWorldRenderingPipeline.ja
+va:320) ~[oculus-mc1.18.2-1.6.4.jar%2357!/:?]
+
+
