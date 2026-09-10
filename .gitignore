@@ -1,0 +1,8 @@
+# Build output from pack.sh / pack.bat
+HeliosPT.zip
+
+# Local notes / scratch
+*.tmp
+*.bak
+
+# Keep committed logs (see LOGS.md), but ignore anything else runtime-related
